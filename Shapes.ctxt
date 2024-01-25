@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Shapes
+comment0.text=\n\ A\ class\ that\ demonstrates\ the\ creation\ of\ random\ shapes\ on\ a\ canvas.\n
+comment1.params=
+comment1.target=CShape()
+comment1.text=\n\ Creates\ a\ shape\ and\ gives\ it\ a\ unique\ number.\n
+comment2.params=
+comment2.target=java.lang.String\ getType()
+comment2.text=\n\ Obtains\ the\ shape's\ type.\n\n\ @return\ a\ string\ that\ signifies\ the\ kind\ of\ shape.\n
+comment3.params=
+comment3.target=java.lang.String\ getDimensions()
+comment3.text=\n\ Get\ the\ shape's\ dimensions.\n\n\ @return\ a\ string\ that\ represents\ the\ shape's\ dimensions.\n
+comment4.params=
+comment4.target=int\ getId()
+comment4.text=\n\ obtains\ the\ shape's\ unique\ identifier.\n\n\ @return\ the\ shape's\ unique\ identity.\n
+comment5.params=random
+comment5.target=CShape\ generateRandomShape(java.util.Random)
+comment5.text=\n\ uses\ a\ random\ object\ as\ input\ to\ generate\ a\ random\ form.\n\n\ @param\ random\ The\ Random\ object\ used\ to\ generate\ random\ values.\n\ @return\ A\ randomly\ generated\ CShape.\n\ @throws\ IllegalStateException\ in\ the\ event\ that\ when\ creating\ a\ form,\ an\ unexpected\ value\ is\ found.\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ The\ main\ method\ that\ starts\ with\ a\ canvas\ and\ adds\ random\ shapes\ to\ it.\n\n\ @param\ args\ Command-line\ arguments\ (not\ used\ in\ this\ program).\n
+numComments=7
